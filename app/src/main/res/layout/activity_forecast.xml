@@ -14,29 +14,20 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<!--Completed (1) Change the ConstraintLayout to a FrameLayout-->
-<!--Completed (7) Remove the line that declares the id, we don't need it-->
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:app="http://schemas.android.com/apk/res-auto"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
-    <!--Completed (8) Wrap the TextView in a ScrollView-->
-    <!--Completed (9) Set the ScrollView width to match_parent and the height to wrap_content-->
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-        <!--Completed (2) Change the TextView's android:id attribute to tv_weather_data-->
-        <!--Completed (3) Give the TextView 16dp of padding-->
-        <!--Completed (4) Set the text size to 20sp-->
-        <!--Completed (5) Remove all attributes with the word constraint in them-->
-        <!--Completed (6) Remove the default text from the TextView-->
+
         <TextView
             android:id="@+id/tv_weather_data"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:padding="16dp"
-            android:textSize="20sp"/>
+            android:textSize="20sp" />
     </ScrollView>
-
 </FrameLayout>
+
